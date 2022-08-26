@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		52561B8028B1E37E00FEA0E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52561B7F28B1E37E00FEA0E0 /* main.m */; };
+		52561B8C28B1E3B900FEA0E0 /* SortingDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 52561B8628B1E3B800FEA0E0 /* SortingDemo.m */; };
+		52561B8D28B1E3B900FEA0E0 /* BlockAndContainerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 52561B8728B1E3B900FEA0E0 /* BlockAndContainerDemo.m */; };
+		52561B8E28B1E3B900FEA0E0 /* PropertyDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 52561B8A28B1E3B900FEA0E0 /* PropertyDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		52561B7C28B1E37E00FEA0E0 /* Tianqi Assignment 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Tianqi Assignment 1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52561B7F28B1E37E00FEA0E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52561B8628B1E3B800FEA0E0 /* SortingDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortingDemo.m; sourceTree = "<group>"; };
+		52561B8728B1E3B900FEA0E0 /* BlockAndContainerDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockAndContainerDemo.m; sourceTree = "<group>"; };
+		52561B8828B1E3B900FEA0E0 /* BlockAndContainerDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockAndContainerDemo.h; sourceTree = "<group>"; };
+		52561B8928B1E3B900FEA0E0 /* PropertyDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyDemo.h; sourceTree = "<group>"; };
+		52561B8A28B1E3B900FEA0E0 /* PropertyDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyDemo.m; sourceTree = "<group>"; };
+		52561B8B28B1E3B900FEA0E0 /* SortingDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortingDemo.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				52561B7F28B1E37E00FEA0E0 /* main.m */,
+				52561B8828B1E3B900FEA0E0 /* BlockAndContainerDemo.h */,
+				52561B8728B1E3B900FEA0E0 /* BlockAndContainerDemo.m */,
+				52561B8928B1E3B900FEA0E0 /* PropertyDemo.h */,
+				52561B8A28B1E3B900FEA0E0 /* PropertyDemo.m */,
+				52561B8B28B1E3B900FEA0E0 /* SortingDemo.h */,
+				52561B8628B1E3B800FEA0E0 /* SortingDemo.m */,
 			);
 			path = "Tianqi Assignment 1";
 			sourceTree = "<group>";
@@ -119,7 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52561B8D28B1E3B900FEA0E0 /* BlockAndContainerDemo.m in Sources */,
 				52561B8028B1E37E00FEA0E0 /* main.m in Sources */,
+				52561B8C28B1E3B900FEA0E0 /* SortingDemo.m in Sources */,
+				52561B8E28B1E3B900FEA0E0 /* PropertyDemo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
